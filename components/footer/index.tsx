@@ -8,8 +8,9 @@ import { TbClockHour8 } from "react-icons/tb";
 
 export default function Footer(){
     return (
-        <footer id="contato" className="bg-black text-white p-4 w-1/2  mx-auto">
+        <footer id="contatos" className="bg-black text-white p-4 w-1/2  mx-auto">
             <h1 className="font-bold text-3xl text-center md:my-5">Contatos</h1>
+
             <div className=" flex flex-col gap-2  md:flex-row md:justify-between md:gap-3 md:items-center">
                 <HiOutlineMail size={30} color="#fff"/>
                 <p className="text-xl"> 

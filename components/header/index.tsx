@@ -19,7 +19,7 @@ export function Header (){
                         <Link href="/#servicos" className="px-4 py-2 text-gray-800 md:text-xl hover:bg-blue-300 rounded-lg transition-all duration-200">
                             Serviços
                         </Link>
-                        <Link href="/#contato" className="px-4 py-2 text-gray-800 md:text-xl hover:bg-blue-300 rounded-lg transition-all duration-200">
+                        <Link href="/#contatos" className="px-4 py-2 text-gray-800 md:text-xl hover:bg-blue-300 rounded-lg transition-all duration-200">
                             Contato
                         </Link>
                     </nav>
