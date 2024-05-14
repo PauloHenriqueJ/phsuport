@@ -21,7 +21,7 @@ Troca de Peças Antigas: Avaliação e substituição de componentes desgastados
         </p>
         <Image
         
-          src=' https://i.imgur.com/uQCD4FS.jpg'
+          src=' https://i.imgur.com/KWTfCkJ.jpg'
           width={800}
           height={500}
           quality={100}
