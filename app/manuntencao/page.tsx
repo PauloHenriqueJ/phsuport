@@ -1,4 +1,5 @@
 import Image from "next/image"
+import img from '@/public/5.jpg'
 export default function  Manuntencao(){
     return(
         <main className="w-full h-screen">
@@ -21,7 +22,7 @@ Troca de Peças Antigas: Avaliação e substituição de componentes desgastados
         </p>
         <Image
         
-          src=' https://i.imgur.com/KWTfCkJ.jpg'
+          src= {img}
           width={800}
           height={500}
           quality={100}
