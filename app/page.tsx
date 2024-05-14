@@ -9,7 +9,7 @@ import Footer from "@/components/footer";
 
 async function getServiceData() {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/servicos`, {
+    const res = await fetch(`https://my-json-server.typicode.com/PauloHenriqueJ/apiphsuport/servicos`, {
       next: { revalidate: 320 },
     });
     return res.json();
