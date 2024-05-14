@@ -9,7 +9,7 @@ import Footer from "@/components/footer";
 
 async function getServiceData(){
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/servicos`, {next:{revalidate:320}})
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}servicos`, {next:{revalidate:320}})
     return res.json()
     
   } catch (error) {
@@ -27,7 +27,7 @@ const  data:ServiceProps[] = await getServiceData();
     <main className="w-full h-screen">
       <SubMenu/>
       <div className="bg-bg-1 lh:w-full h-[500px] bg-no-repeat bg-cover opacity-80 hover:opacity-100 hover:scale-95 duration-200 md:text-wrap">
-        <h1 className=" flex text-black text-3xl md:text-4xl font-bold pt-9 tracking-widest text-wrap text-center "> Transforme a sua frustração em solução - onde quer que você esteja, 
+        <h1 className=" flex text-gray-900 text-3xl md:text-4xl font-bold pt-9 tracking-widest text-wrap text-center "> Transforme a sua frustração em solução - onde quer que você esteja, 
         nós cuidamos do seu computador. Confie na nossa expertise
          para manter seu mundo digital funcionando sem problemas!
          </h1>
