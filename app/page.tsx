@@ -9,7 +9,7 @@ import Footer from "@/components/footer";
 
 async function getServiceData(){
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}servicos`, {next:{revalidate:320}})
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/servicos`, {next:{revalidate:320}})
     return res.json()
     
   } catch (error) {
@@ -32,9 +32,9 @@ const  data:ServiceProps[] = await getServiceData();
          para manter seu mundo digital funcionando sem problemas!
          </h1>
          <Link href="http://api.whatsapp.com/send?1=pt_BR&phone=5571987202769" target="_blank">
-         <button className="flex text-center items-center justify-center bg-green-500 rounded-lg mx-auto my-2 text-white text-2xl py-1
-         md:mt-40 hover:bg-slate-200 hover:text-black 
-         npm ">
+         <button className="flex text-center items-center justify-center bg-green-500 rounded-lg mx-auto my-2 pos text-white text-2xl px-1 py-2
+         md:mt-40 hover:bg-slate-200 hover:text-black
+">
           Agende sua visita
          </button>
          </Link>
