@@ -24,7 +24,7 @@ export default async function Home() {
   return (
     <main className="w-full h-screen">
       <SubMenu />
-      <div className="bg-bg-2 h:w-full h-[300px] md:h-[500px] bg-no-repeat bg-contain md:bg-cover opacity-80 hover:opacity-100 hover:scale-95 duration-200 md:text-wrap">
+      <div className="bg-bg-2 h:w-full h-[300px] md:h-[500px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-80 hover:opacity-100 hover:scale-95 duration-200 md:text-wrap">
         <h1 className=" flex text-white text-lg md:text-4xl font-bold pt-9 tracking-widest text-wrap text-center ">
           {" "}
           Transforme a sua frustração em solução - onde quer que você esteja,

@@ -4,7 +4,7 @@ export default function  Manuntencao(){
         <main className="w-full h-screen">
 
         
-        <div className="bg-bg-1 h:w-full h-[400px] md:h-[500px] bg-no-repeat bg-contain md:bg-cover opacity-70 hover:opacity-100 hover:scale-95 duration-200">
+        <div className="bg-bg-1 h:w-full h-[400px] md:h-[500px] bg-no-repeat bg-contain md:bg-cover opacity-70 rounded-lg hover:opacity-100 hover:scale-95 duration-200">
         </div>
 
         <h1 className="text-center my-3 md:text-center text-2xl font-bold text-black antialiased md:text-4xl">
@@ -21,7 +21,6 @@ Troca de Peças Antigas: Avaliação e substituição de componentes desgastados
         </p>
         <Image
           src=' https://i.imgur.com/uQCD4FS.jpg'
-         
           width={800}
           height={500}
           quality={100}
