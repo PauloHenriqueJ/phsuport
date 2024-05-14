@@ -19,7 +19,7 @@ async function getServiceData(){
 }
 
 export default async function Home() {
-const  data:ServiceProps = await getServiceData();
+const  data:ServiceProps[] = await getServiceData();
 
 
 
