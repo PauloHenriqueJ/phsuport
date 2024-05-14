@@ -11,7 +11,7 @@ export default function  Manuntencao(){
         O que é Manutenção Preventiva
       </h1>
 
-      <div className="w-full mx-auto text-wrap text-start md:flex md:flex-grow">
+      <div className="w-full mx-auto text-wrap text-start md:flex">
         <p className="text-center text-center mx-auto text-wrap  md:my-10 mx-auto md:text-xl tracking-widest">
         A manutenção preventiva é uma ação contínua de controle e monitoramento do computador. Seu objetivo é evitar problemas causados por falta de verificações rotineiras em vários aspectos da máquina, como:
 
@@ -20,6 +20,7 @@ Espaço em Disco: Verificação do espaço disponível no disco rígido e otimiz
 Troca de Peças Antigas: Avaliação e substituição de componentes desgastados, como memória RAM, discos rígidos e placas-mãe.
         </p>
         <Image
+        
           src=' https://i.imgur.com/uQCD4FS.jpg'
           width={800}
           height={500}
