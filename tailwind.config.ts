@@ -9,7 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-1':"url('/suporte.png')",
+        'bg-1':"url('https://i.imgur.com/VKrVYlc.jpg')",
+        'bg-2':"url('https://i.imgur.com/3ogLG1d.jpg')",
+        'bg-3':"url('https://i.imgur.com/D3V0wgG.jpg')",
+    
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },

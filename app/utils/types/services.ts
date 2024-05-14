@@ -1,6 +1,6 @@
 export interface ServiceProps{
     id: number;
     nome: string;
-    description: string;
+    descricao: string;
     image: string;
 }
