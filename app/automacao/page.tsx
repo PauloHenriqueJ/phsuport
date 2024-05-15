@@ -4,8 +4,9 @@ import Link from "next/link";
 
 export default function Automacao() {
   return (
+    <Container>
     <main className="w-full h-screen">
-      <Container>
+     
       <div className="bg-bg-3 h:w-full h-[300px] md:h-[500px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-70 hover:opacity-100 hover:scale-95 duration-200"></div>
 
       <h1 className="text-center my-3 md:text-center text-2xl font-bold text-black antialiased md:text-4xl">
@@ -55,7 +56,8 @@ export default function Automacao() {
         </div>
 
       </div>
-      </Container>
+     
     </main>
+    </Container>
   );
 }

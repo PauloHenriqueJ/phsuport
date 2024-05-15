@@ -23,8 +23,9 @@ export default async function Home() {
   const data: ServiceProps[] = await getServiceData();
 
   return (
+    <Container>
     <main className="w-full h-screen">
-      <Container>
+    
       <SubMenu />
       <div className="bg-bg-2 w-full h-[300px] md:h-[500px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-80 hover:opacity-100 hover:scale-95 duration-200 md:text-wrap">
         <h1 className=" flex text-white text-lg md:text-4xl font-bold pt-9 tracking-widest text-wrap text-center ">
@@ -91,7 +92,8 @@ export default async function Home() {
       </div>
 
       <Footer />
-      </Container>
+    
     </main>
+    </Container>
   );
 }
