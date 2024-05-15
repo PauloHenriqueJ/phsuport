@@ -4,12 +4,13 @@ import Link from "next/link";
 
 export default function Automacao() {
   return (
-    <Container>
+   
     <main className="w-full h-screen">
      
       <div className="bg-bg-3 h:w-full h-[300px] md:h-[500px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-70 hover:opacity-100 hover:scale-95 duration-200"></div>
-
+      <Container>
       <h1 className="text-center my-3 md:text-center text-2xl font-bold text-black antialiased md:text-4xl">
+      
         Casa inteligente
       </h1>
       <p className="text-center text-center mx-auto text-wrap  md:my-10 mx-auto md:text-xl tracking-widest">
@@ -56,8 +57,8 @@ export default function Automacao() {
         </div>
 
       </div>
-     
+      </Container>
     </main>
-    </Container>
+  
   );
 }

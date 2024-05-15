@@ -3,12 +3,14 @@ import img from "@/public/5.jpg";
 import { Container } from "@/components/container";
 export default function Manuntencao() {
   return (
-    <Container>
+    
     <main className="w-full h-screen">
       
-        <div className="bg-bg-1 h:w-full h-[400px] md:h-[500px] bg-no-repeat bg-contain md:bg-cover opacity-70 rounded-lg hover:opacity-100 hover:scale-95 duration-200"></div>
+        <div className="bg-bg-1 h:w-full h-[300px] md:h-[500px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-70 hover:opacity-100 hover:scale-95 duration-200"></div>
+        <Container>
 
         <h1 className="text-center my-3 md:text-center text-2xl font-bold text-black antialiased md:text-4xl">
+       
           O que é Manutenção Preventiva
         </h1>
 
@@ -62,8 +64,8 @@ export default function Manuntencao() {
           manutenção preventiva para prolongar a vida útil do seu computador e
           garantir seu bom funcionamento! 🚀
         </p>
-     
+        </Container>
     </main>
-    </Container>
+    
   );
 }
