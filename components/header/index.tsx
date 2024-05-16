@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 export function Header (){
     return(
-        <header className="flex  w-full h-16 bg-white mb-10 " id='home'>
+        <header className="flex  w-full h-16 bg-white mb-10" id='home'>
             <div className="container mx-auto flex items-center h-full ">
                 <div className="w-full">
                     <Link href="/">
