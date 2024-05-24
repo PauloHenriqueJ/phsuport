@@ -1,11 +1,12 @@
 import Image from "next/image";
 import img from "@/public/5.jpg";
 import { Container } from "@/components/container";
+import { SubMenu } from "@/components/header/submenu";
 export default function Manuntencao() {
   return (
     
     <main className="w-full h-screen">
-      
+       <SubMenu/>
         <div className="bg-bg-1 h:w-full h-[300px] md:h-[500px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-70 hover:opacity-100 hover:scale-95 duration-200"></div>
         <Container>
 

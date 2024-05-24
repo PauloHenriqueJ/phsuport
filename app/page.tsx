@@ -27,10 +27,10 @@ export default async function Home() {
     <main className="w-full h-screen">
     
       <SubMenu />
-      <div className="bg-bg-2 h:w-full h-[300px] md:h-[500px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-70 hover:opacity-100 hover:scale-95 duration-200">
-        <h1 className=" flex text-white text-lg md:text-4xl font-bold pt-9 tracking-widest text-wrap text-center ">
+      <div className="bg-bg-2 h:w-full h-[300px] md:h-[600px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-85 hover:opacity-100 hover:scale-95 duration-200">
+        <h1 className=" flex text-black  md:text-4xl font-extrabold pt-9 tracking-widest text-wrap text-center ">
           
-          Transforme a sua frustração em solução - onde quer que você esteja,
+          Transforme a sua frustração em solução onde quer que você esteja,
           nós cuidamos do seu computador. Confie na nossa expertise para manter
           seu mundo digital funcionando sem problemas!
         </h1>

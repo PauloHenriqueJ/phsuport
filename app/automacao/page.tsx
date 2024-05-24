@@ -1,4 +1,5 @@
 import { Container } from "@/components/container";
+import { SubMenu } from "@/components/header/submenu";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,6 +7,7 @@ export default function Automacao() {
   return (
    
     <main className="w-full h-screen">
+      <SubMenu/>
      
       <div className="bg-bg-3 h:w-full h-[300px] md:h-[500px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-70 hover:opacity-100 hover:scale-95 duration-200"></div>
       <Container>
@@ -13,7 +15,7 @@ export default function Automacao() {
       
         Casa inteligente
       </h1>
-      <p className="text-center text-center mx-auto text-wrap  md:my-10 mx-auto md:text-xl tracking-widest">
+      <p className="text-center text-center antialiased mx-auto text-wrap  md:my-10 mx-auto md:text-xl tracking-widest">
         Com dispositivos conectados, você pode automatizar tarefas diárias, como
         ligar e desligar luzes, ajustar a temperatura e até preparar um café,
         economizando tempo e esforço. Controle por voz permite que você execute
@@ -30,9 +32,24 @@ export default function Automacao() {
       <div className="grid grid-col md:grid-cols-3 lg:grid-cols-4 mx-10 my-auto gap-2 items-center justify-between ">
 
         <div className=" relative mb-2 hover:opacity-100 hover:scale-95 duration-200">
-            <a href="https://www.youtube.com/watch?v=WM91YsSVwIw&list=RDWM91YsSVwIw&start_radio=1">
+            <a href="https://youtube.com/shorts/i2wGEZRIr2E?si=-7NaHHSsENh8Jq0e" target="_blank">
                 <Image
-                    src="https://i.imgur.com/iPcK8Bl.jpg"
+                    src="https://i.imgur.com/x8y8MqY.jpg"
+                  
+                    
+                    alt="Automação residencial"
+                    width={300}
+                    height={300}
+                    className="rounded-lg"
+                />
+            </a>
+        </div>
+
+        <div className=" relative mb-2 hover:opacity-100 hover:scale-95 duration-200">
+            <a href="https://youtube.com/shorts/6gzy8Oh-yaU?si=Oz1bXO9SBqui8acF" target="_blank">
+                <Image
+                    src="https://i.imgur.com/ziLvyOs.jpg"
+                  
                     
                     alt="Automação residencial"
                     width={300}
@@ -58,6 +75,15 @@ export default function Automacao() {
 
       </div>
       </Container>
+
+      <ul className="text-center gap-2 justify-between">
+        <li className="text-lg tracking-normal antialiased md:text-xl">Defina o horário de ligar e desligar suas lâmpadas </li>
+        <li className="text-lg tracking-normal antialiased md:text-xl">Ligue seus equipamentos de onde estiver  </li>
+        <li className="text-lg tracking-normal antialiased md:text-xl"> Monitore sua casa com câmeras inteligentes </li>
+        <li className="text-lg tracking-normal antialiased md:text-xl">Receba uma notificação por sensor de presença </li>
+
+
+      </ul>
     </main>
   
   );

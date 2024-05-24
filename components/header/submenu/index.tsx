@@ -14,7 +14,7 @@ export function SubMenu (){
                         <a href="/automacao">Automação residencial</a>
                     </li>
                 </ul>
-                <div className="border-b mb-1"></div>
+                <div className="border-b mb-1 border-slate-200 my-4"></div>
             
         </div>
         </Container>
