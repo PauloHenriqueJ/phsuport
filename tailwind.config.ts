@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'bg-1':"url('https://i.imgur.com/VKrVYlc.jpg')",
-        'bg-2':"url('https://i.imgur.com/6wGfBYN.jpg')",
+        'bg-2':"url('https://i.imgur.com/6wGfBYN.png')",
         'bg-3':"url('https://i.imgur.com/D3V0wgG.jpg')",
     
         "gradient-conic":
