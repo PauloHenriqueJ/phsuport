@@ -2,7 +2,7 @@ import { SubMenu } from "@/components/header/submenu";
 import Image from "next/image";
 import Link from "next/link";
 
-import Img2 from "@/public/img3.png";
+import Img2 from "@/public/img4.png";
 import { ServiceProps } from "./utils/types/services";
 import { ItemService } from "@/components/servicos";
 import Footer from "@/components/footer";
@@ -70,6 +70,7 @@ export default async function Home() {
           tenham uma experiência tranquila e sem complicações ao lidar com
           questões técnicas relacionadas a seus equipamentos de informática.
         </p>
+
         <Image
           src={Img2}
           width={800}
