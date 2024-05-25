@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   description: "Manuntenção de computador, notebooks",
   keywords: "manuntenção de computador, notebooks, Salvador",
   openGraph: {
-    title:'titulo',
+    title:'title',
     type: 'website',
     locale: 'pt_BR',
     url: 'https://phsuport.vercel.app/',
-    images:['https://imgur.com/a4cyE0g']
+    images:['https://i.imgur.com/a4cyE0g.jpg']
   },
 robots:{
   index: true,
