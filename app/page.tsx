@@ -28,19 +28,14 @@ export default async function Home() {
     
       <SubMenu />
       <div className="bg-bg-2 h:w-full h-[300px] md:h-[600px] bg-no-repeat rounded-lg bg-contain md:bg-cover opacity-85 hover:opacity-100 hover:scale-95 duration-200">
-        <h1 className=" flex text-black  md:text-4xl font-extrabold pt-9 tracking-widest text-wrap text-center ">
-          
-          Transforme a sua frustração em solução onde quer que você esteja,
-          nós cuidamos do seu computador. Confie na nossa expertise para manter
-          seu mundo digital funcionando sem problemas!
-        </h1>
-        <Link
+       
+        <Link className="flex"
           href="http://api.whatsapp.com/send?1=pt_BR&phone=5571987202769"
           target="_blank"
         >
           <button
-            className="flex text-center items-center justify-center bg-green-500 rounded-lg mx-auto mt-2  text-white text-2xl px-1 p-2
-         md:mt-40 hover:bg-slate-200 hover:text-black
+            className="items-center justify-center bg-green-500 rounded-lg mx-auto mt-8  text-white text-2xl px-1 p-1
+         md:mt-52 hover:bg-slate-200 hover:text-black
 "
           >
             Agende sua visita
