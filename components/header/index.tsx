@@ -1,5 +1,5 @@
 
-import Logo from '@/public/NovaLogo.png'
+import Logo from '@/public/novaLogo1.png'
 import Image from 'next/image'
 import Link from 'next/link'
 export function Header (){
@@ -8,7 +8,7 @@ export function Header (){
             <div className="container mx-auto flex items-center h-full ">
                 <div className="w-full">
                     <Link href="/">
-                        <Image quality={100} priority={true} className='hidden md:flex w-80 h-36 mt-10' src={Logo} alt="logomarca "  />
+                        <Image quality={100} priority={true} className='hidden md:flex w-80 h-40 mt-20' src={Logo} alt="logomarca "  />
                     </Link>
                 </div>
                 <div className="w-1/2 flex  mx-24 items-center justify-center ">
